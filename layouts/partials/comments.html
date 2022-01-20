@@ -1,3 +1,14 @@
+{{ if .Site.Params.valineId }}
+ <div id="vcomments"></div>
+    <script>
+        new Valine({
+            el: '#vcomments',
+            visitor: true,
+            appId: '{{ .Site.Params.valineId }}',
+            appKey: '{{ .Site.Params.valineKey }}'
+        })
+    </script>
+{{ end }}
 {{ if and .IsPage (ne .Params.comment false) }}
     {{ template "_internal/disqus.html" . }}
 
