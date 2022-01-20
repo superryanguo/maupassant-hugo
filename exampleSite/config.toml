@@ -2,7 +2,6 @@ baseURL = "https://www.flysnow.org"
 languageCode = "zh-CN"
 title = "飞雪无情的博客"
 theme = "maupassant"
-googleAnalytics = ""  # UA-XXXXXXXX-X
 
 ## 保持分类的原始名字（false会做转小写处理）
 preserveTaxonomyNames = true
@@ -25,6 +24,11 @@ disqusShortname = "yourdiscussshortname"  ## 是否开启disqus评论，不要�
   busuanzi = true #启用不算子网页统计
   googleAd = ""  #ca-pub-xxxxxxxxxxxxxx
   localSearch = true # 启用本地搜索
+#  googleAnalytics = ""  # G-XXXXXXX
+#  baiduAnalytics = ""  # baidu code
+#  valineId = "" # valine ID
+#valineKey = "" # valine Key
+
 
   # 这里我存放在了主题的static文件夹里，根目录的似乎也可以
   customCSS = ['douban.css', 'other.css']

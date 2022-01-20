@@ -53,4 +53,13 @@
     {{ range .Site.Params.customCSS }}
         <link rel="stylesheet" href='{{ "/css/" | relURL }}{{ . }}'>
     {{ end }}
+
+	{{ if .Site.Params.baiduAnalytics }}
+    {{ partial "baidu-analytics" . }}
+	{{ end }}
+
+	{{ if .Site.Params.googleAnalytics }}
+    {{ partial "google-analytics" . }}
+	{{ end }}
+  <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
 </head>

@@ -1,6 +1,12 @@
 # Maupassant
 
-Maupassant theme, ported to Hugo.
+```
+Forked from https://github.com/flysnow-org/maupassant-hugo
+add support for:
+1. baidu analytics
+2. google analytics
+3. valine comments
+```
 
 1. 预览效果:[飞雪无情的博客](http://www.flysnow.org)
 2. [English Docs](README_EN.md)
